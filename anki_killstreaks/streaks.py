@@ -1227,7 +1227,6 @@ MWR_MULTIKILL_STATES = [
         name="Kill Chain",
         call="Kill Chain (shows every 5th earned)",
         game_id="mwr",
-        is_displayable_medal=False,
         rank=10,
     ),
     MultikillMedalState(
@@ -1236,7 +1235,6 @@ MWR_MULTIKILL_STATES = [
         name="Kill Chain",
         call="Kill Chain (shows every 5th earned)",
         game_id="mwr",
-        is_displayable_medal=False,
         rank=11,
     ),
     MultikillMedalState(
@@ -1245,7 +1243,6 @@ MWR_MULTIKILL_STATES = [
         name="Kill Chain",
         call="Kill Chain (shows every 5th earned)",
         game_id="mwr",
-        is_displayable_medal=False,
         rank=12,
     ),
     EndState(
@@ -1255,7 +1252,6 @@ MWR_MULTIKILL_STATES = [
             name="Kill Chain",
             call="Kill Chain (shows every 5th earned)",
             game_id="mwr",
-            is_displayable_medal=False,
             rank=13,
         ),
         index_to_return_to=9
@@ -1345,7 +1341,6 @@ MWR_KILLING_SPREE_STATES = [
         name="Unstoppable",
         call="Unstoppable (shows every 5th earned)",
         game_id="mwr",
-        is_displayable_medal=False,
         rank=32,
     ),
     KillingSpreeMedalState(
@@ -1354,7 +1349,6 @@ MWR_KILLING_SPREE_STATES = [
         name="Unstoppable",
         call="Unstoppable (shows every 5th earned)",
         game_id="mwr",
-        is_displayable_medal=False,
         rank=33,
     ),
     KillingSpreeMedalState(
@@ -1363,7 +1357,6 @@ MWR_KILLING_SPREE_STATES = [
         name="Unstoppable",
         call="Unstoppable (shows every 5th earned)",
         game_id="mwr",
-        is_displayable_medal=False,
         rank=34,
     ),
     EndState(
@@ -1373,7 +1366,6 @@ MWR_KILLING_SPREE_STATES = [
             name="Unstoppable",
             call="Unstoppable (shows every 5th earned)",
             game_id="mwr",
-            is_displayable_medal=False,
             rank=35,
         ),
         index_to_return_to=31,
